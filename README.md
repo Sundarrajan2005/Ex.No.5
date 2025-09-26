@@ -2,37 +2,81 @@
 
 # EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+## DATE: 26.9.2025
+## REG NO: 212223060279
 
-### AI Tools Required: 
+# Aim: 
+To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+
+### AI Tools Required:
+
+* ChatGPT (AI Language Model)
+
+* Any other text-based AI tool (optional, for cross-verification)
 
 # Explanation: 
-Define the Two Prompt Types:
 
-Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Based on that pattern type refined the prompt and submit that with AI tool.
-Get the ouput and write the report.
+## Types of Prompting Patterns
+1. Naïve Prompt (Broad/Unstructured):
 
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+* General instructions with no structure or constraints.
+
+* Often lacks context, word limit, or focus.
+
+Example: “Write about the internet.”
+
+2.Basic Prompt (Clear, Structured, Refined):
+
+* Detailed, clear, and well-framed instructions.
+
+* Provides context, format requirements, and goals.
+
+Example: “Write a 100-word note on the internet, including its definition, two advantages, and one disadvantage.”
+
+## Reason for Experiment:
+
+AI models are highly sensitive to prompt quality. By testing naïve vs. basic prompts, we can observe how structured instructions improve AI performance in terms of:
+
+* Quality of Output
+
+* Accuracy of Information
+
+* Depth of Explanation
+
+* Relevance to User’s Needs
+
+## Test Scenarios
+
+We considered 5 scenarios for comprehensive evaluation:
+
+* Creative Story Generation
+
+* Answering a Factual Question
+
+* Summarization of a Concept
+
+* Providing Advice / Recommendation
+
+* Comparative / Analytical Task
+
+## OUTPUT:
+
+<img width="1182" height="641" alt="image" src="https://github.com/user-attachments/assets/36123b25-c056-4baf-a737-498f6173b997" />
 
 
-# OUTPUT
+## Evaluation Criteria:
 
-# RESULT: The prompt for the above said problem executed successfully
+
+We evaluate results on three parameters:
+
+1. Quality – How well the response matches user intent.
+
+2. Naïve prompts: Often generic, incomplete.
+
+3. Basic prompts: Detailed, structured, user-focused.
+
+
+
+
+# RESULT:
+The experiment was executed successfully. It is concluded that clear, detailed, and structured prompts consistently generate outputs of higher quality, accuracy, and depth compared to naïve prompts.
